@@ -1,5 +1,36 @@
+@font-face {
+    font-family: weblysleekuil;
+    src: url(../fonts/weblysleekuil.ttf);
+}
+
 .text1{
-	font-size:50px;
-	font-family:gotham;
+	font-size:90px;
+	font-family:weblysleekuil;
 	color:white;
+	text-align: left;
+	margin-left: 45px;
+	margin-top: 250px;
 	}
+.text2{
+	font-size:70px;
+	font-family:weblysleekuil;
+	color:white;
+	text-align: left;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+.navbar{
+	font-size:20px;
+	font-family:weblysleekuil;
+	color: white;
+	text-align: right;
+	margin-right: 25px;
+	margin-top:30px;
+}
+
+.navline{
+	background-color:white;
+	margin-bottom:30px;
+	height: 2px;
+	width: 3000px;
