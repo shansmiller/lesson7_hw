@@ -20,6 +20,15 @@
 	margin-top: 20px;
 }
 
+.subText{
+	font-size:45px;
+	font-family:weblysleekuil, sans-sarif;
+	color:white;
+	text-align: left;
+	margin-left: 225px;
+	margin-top: 20px;
+}
+
 .navbar{
 	font-size:24px;
 	font-family: weblysleekuil, sans-sarif;
@@ -27,6 +36,7 @@
 	text-align: right;
 	margin-right: 25px;
 	margin-top:30px;
+	padding: 15px;
 }
 .navbar a:link, .navbar a:visited {
 	text-decoration: none; color:white;
@@ -43,16 +53,49 @@
 	background-color: white;
 	margin-left: 100px;
 	margin-top: 25px;
-	height:500px;
+	height:620px;
 	width:750px;
 
 }
 
+.newsBox{
+	background-color: white;
+	margin-left: 100px;
+	margin-top: 25px;
+	height:370px;
+	width:750px;
+
+}
+.formBox{
+	background-color: white;
+	margin-left: 100px;
+	margin-top: 25px;
+	height:200px;
+	width:200px;
+
+}
+
+
 .form{
 	font-family: weblysleekuil, sans-sarif;
+
 }
 
 .aboutText {
 	font-family: weblysleekuil, sans-sarif;
 	padding: 20px;
+}
+
+.newsText {
+	font-family: weblysleekuil, sans-sarif;
+	padding: 20px;
+}
+
+.donate {
+	color: green;
+	background-color: white;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius:30px;
 }
