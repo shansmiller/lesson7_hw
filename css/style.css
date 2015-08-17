@@ -29,6 +29,11 @@
 	margin-top: 20px;
 }
 
+.socialIcons {
+	float:right;
+	width:70%;
+}
+
 .navbar{
 	font-size:24px;
 	font-family: weblysleekuil, sans-sarif;
@@ -49,9 +54,9 @@
 	width: 3000px;
 }
 
-.box{
+.aboutBox{
 	background-color: white;
-	margin-left: 100px;
+	margin-left: 250px;
 	margin-top: 25px;
 	height:620px;
 	width:750px;
@@ -60,10 +65,16 @@
 
 .newsBox{
 	background-color: white;
-	margin-left: 100px;
-	margin-top: 25px;
+	margin-left: 0px;
+	margin-top: 10px;
 	height:370px;
 	width:750px;
+	float:left;
+
+}
+
+.socialIcons{
+	float:right;
 
 }
 .formBox{
@@ -92,10 +103,21 @@
 }
 
 .donate {
-	color: green;
+	color: black;
 	background-color: white;
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius:30px;
+
+}
+
+footer {
+	text-align: center;
+	font-size: 8pt;
+	clear:both;
+	color: white;
+	font-family: weblysleekuil, sans-sarif;
+	padding: 40px;
+
 }
