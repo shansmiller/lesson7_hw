@@ -28,8 +28,8 @@
 	text-shadow:1px 1px black;
 	color:white;
 	text-align: left;
-	margin-left: 225px;
-	margin-top: 20px;
+	margin-left: 275px;
+	margin-top: 0px;
 }
 
 
@@ -68,7 +68,8 @@
 
 .newsBox{
 	background-color: white;
-	margin-left: 200px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 10px;
 	height:370px;
 	width:750px;
@@ -78,7 +79,8 @@
 #socialIcons{
 	width: 70%:;
 	float: right;
-	margin-right: 55px;
+	margin-right: auto;
+	padding-right: 20px;
 	margin-top: -95px;
 
 }
@@ -89,11 +91,11 @@
 
 
 .formBox{
-	background-color: black;
-	margin-left: 400px;
-	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
 	height:230px;
 	width:500px;
+
 
 }
 
@@ -101,7 +103,8 @@
 .form{
 	font-family: weblysleekuil, sans-sarif;
 	color:white;
-	background-color:black;
+	background-color:black; 
+	background opacity: 50%;
 	padding:30px;
 
 }
@@ -125,6 +128,7 @@
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius:30px;
 	padding: 8px 6px;
+
 
 }
 .donate a, .donate a:visited, .donate a:link {
