@@ -7,13 +7,15 @@
 	font-size:90px;
 	font-family:weblysleekuil, sans-sarif;
 	color:white;
+	text-shadow:1px 1px black;
 	text-align: left;
 	margin-left: 45px;
-	margin-top: 250px;
+	margin-top: 150px;
 	}
 .text2{
 	font-size:70px;
 	font-family:weblysleekuil, sans-sarif;
+	text-shadow:1px 1px black;
 	color:white;
 	text-align: left;
 	margin-left: 45px;
@@ -23,21 +25,20 @@
 .subText{
 	font-size:45px;
 	font-family:weblysleekuil, sans-sarif;
+	text-shadow:1px 1px black;
 	color:white;
 	text-align: left;
 	margin-left: 225px;
 	margin-top: 20px;
 }
 
-.socialIcons {
-	float:right;
-	width:70%;
-}
+
 
 .navbar{
 	font-size:24px;
 	font-family: weblysleekuil, sans-sarif;
 	color: white;
+	text-shadow:1px 1px black;
 	text-align: right;
 	margin-right: 25px;
 	margin-top:30px;
@@ -46,7 +47,9 @@
 .navbar a:link, .navbar a:visited {
 	text-decoration: none; color:white;
 }
-
+.navbar li a {
+	font-size: 24px;
+}
 .navline{
 	background-color:white;
 	margin-bottom:30px;
@@ -56,7 +59,7 @@
 
 .aboutBox{
 	background-color: white;
-	margin-left: 250px;
+	margin: auto;
 	margin-top: 25px;
 	height:620px;
 	width:750px;
@@ -65,30 +68,41 @@
 
 .newsBox{
 	background-color: white;
-	margin-left: 0px;
+	margin-left: 200px;
 	margin-top: 10px;
 	height:370px;
 	width:750px;
-	float:left;
 
 }
 
-.socialIcons{
-	float:right;
+#socialIcons{
+	width: 70%:;
+	float: right;
+	margin-right: 55px;
+	margin-top: -95px;
 
 }
+
+.photobody{
+	margin:auto;
+}
+
+
 .formBox{
-	background-color: white;
-	margin-left: 100px;
+	background-color: black;
+	margin-left: 400px;
 	margin-top: 25px;
-	height:200px;
-	width:200px;
+	height:230px;
+	width:500px;
 
 }
 
 
 .form{
 	font-family: weblysleekuil, sans-sarif;
+	color:white;
+	background-color:black;
+	padding:30px;
 
 }
 
@@ -97,20 +111,38 @@
 	padding: 20px;
 }
 
+
 .newsText {
 	font-family: weblysleekuil, sans-sarif;
 	padding: 20px;
 }
 
 .donate {
-	color: black;
+	
 	background-color: white;
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius:30px;
+	padding: 8px 6px;
 
 }
+.donate a, .donate a:visited, .donate a:link {
+	color: black;
+	text-shadow: none;
+}
+
+.formText{
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	float:right;
+  	top: -175px;
+  	line-height: 0.5;
+  	font-family: weblysleekuil, sans-sarif;
+
+}
+
 
 footer {
 	text-align: center;
