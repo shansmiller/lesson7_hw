@@ -22,6 +22,7 @@
 	margin-top: 20px;
 }
 
+
 .subText{
 	font-size:45px;
 	font-family:weblysleekuil, sans-sarif;
@@ -150,7 +151,7 @@
 
 footer {
 	text-align: center;
-	font-size: 8pt;
+	font-size: 12pt;
 	clear:both;
 	color: white;
 	font-family: weblysleekuil, sans-sarif;
